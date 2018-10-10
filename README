@@ -1,5 +1,10 @@
-# this will put in the install-sh script
-autoreconf --install
-autoconfig
-#automake --add-missing --copy >/dev/null 2>&1
+# Steps to Setup
+autoreconf --install # will install the install-sh script
+autoconf # will create configure
 
+## Steps to install
+./configure
+make
+sudo make install
+jupiter
+sudo make uninstall

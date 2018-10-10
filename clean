@@ -12,5 +12,5 @@ rm configure
 rm config.h
 rm compile
 rm -f src/main.o
-src/.deps/main.Po
+rm src/.deps/main.Po
 rm -rf src/jupiter.dSYM
